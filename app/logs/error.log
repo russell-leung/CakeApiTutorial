@@ -1,0 +1,3216 @@
+2022-07-25 12:15:35 error: [TypeError] Argument 1 passed to Cake\Utility\Security::setSalt() must be of the type string, null given, called in /var/www/config/bootstrap.php on line 164 in /var/www/vendor/cakephp/cakephp/src/Utility/Security.php on line 307
+Stack Trace:
+- /var/www/config/bootstrap.php:164
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:173
+- /var/www/src/Application.php:44
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:109
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:79
+- /var/www/webroot/index.php:40
+
+
+
+2022-07-25 12:15:38 error: [TypeError] Argument 1 passed to Cake\Utility\Security::setSalt() must be of the type string, null given, called in /var/www/config/bootstrap.php on line 164 in /var/www/vendor/cakephp/cakephp/src/Utility/Security.php on line 307
+Stack Trace:
+- /var/www/config/bootstrap.php:164
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:173
+- /var/www/src/Application.php:44
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:109
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:79
+- /var/www/webroot/index.php:40
+
+
+
+2022-07-25 12:17:18 error: [TypeError] Argument 1 passed to Cake\Utility\Security::setSalt() must be of the type string, null given, called in /var/www/config/bootstrap.php on line 164 in /var/www/vendor/cakephp/cakephp/src/Utility/Security.php on line 307
+Stack Trace:
+- /var/www/config/bootstrap.php:164
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:173
+- /var/www/src/Application.php:44
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:109
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:79
+- /var/www/webroot/index.php:40
+
+
+
+2022-07-26 15:17:30 error: [Cake\Http\Exception\MissingControllerException] Controller class Users could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /users/login
+Referer URL: http://localhost:8080/users/login
+Client IP: 172.20.0.1
+
+
+2022-07-26 15:36:29 error: [Cake\View\Exception\MissingTemplateException] Template file `Cocktails/json/index.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/templates/Cocktails/json/index.php`
+- `/var/www/vendor/cakephp/cakephp/templates/Cocktails/json/index.php`
+ in /var/www/vendor/cakephp/cakephp/src/View/View.php on line 1359
+Exception Attributes: array (
+  'file' => 'Cocktails/json/index.php',
+  'paths' => 
+  array (
+    0 => '/var/www/templates/',
+    1 => '/var/www/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/View/View.php:766
+- /var/www/vendor/cakephp/cakephp/src/View/SerializedView.php:120
+- /var/www/vendor/cakephp/cakephp/src/View/JsonView.php:114
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:764
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails.json
+Client IP: 172.20.0.1
+
+
+2022-07-26 15:36:35 error: [Cake\View\Exception\MissingTemplateException] Template file `Cocktails/json/index.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/templates/Cocktails/json/index.php`
+- `/var/www/vendor/cakephp/cakephp/templates/Cocktails/json/index.php`
+ in /var/www/vendor/cakephp/cakephp/src/View/View.php on line 1359
+Exception Attributes: array (
+  'file' => 'Cocktails/json/index.php',
+  'paths' => 
+  array (
+    0 => '/var/www/templates/',
+    1 => '/var/www/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/View/View.php:766
+- /var/www/vendor/cakephp/cakephp/src/View/SerializedView.php:120
+- /var/www/vendor/cakephp/cakephp/src/View/JsonView.php:114
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:764
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails.json
+Client IP: 172.20.0.1
+
+
+2022-07-26 15:36:58 error: [Cake\Http\Exception\MissingControllerException] Controller class Index could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Index',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => 'json',
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /index.json
+Client IP: 172.20.0.1
+
+
+2022-07-26 15:37:54 error: [Cake\View\Exception\MissingTemplateException] Template file `Cocktails/json/index.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/templates/Cocktails/json/index.php`
+- `/var/www/vendor/cakephp/cakephp/templates/Cocktails/json/index.php`
+ in /var/www/vendor/cakephp/cakephp/src/View/View.php on line 1359
+Exception Attributes: array (
+  'file' => 'Cocktails/json/index.php',
+  'paths' => 
+  array (
+    0 => '/var/www/templates/',
+    1 => '/var/www/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/View/View.php:766
+- /var/www/vendor/cakephp/cakephp/src/View/SerializedView.php:120
+- /var/www/vendor/cakephp/cakephp/src/View/JsonView.php:114
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:764
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails.json
+Client IP: 172.20.0.1
+
+
+2022-07-26 15:39:50 error: [Cake\View\Exception\MissingTemplateException] Template file `Cocktails/json/add.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/templates/Cocktails/json/add.php`
+- `/var/www/vendor/cakephp/cakephp/templates/Cocktails/json/add.php`
+ in /var/www/vendor/cakephp/cakephp/src/View/View.php on line 1359
+Exception Attributes: array (
+  'file' => 'Cocktails/json/add.php',
+  'paths' => 
+  array (
+    0 => '/var/www/templates/',
+    1 => '/var/www/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/View/View.php:766
+- /var/www/vendor/cakephp/cakephp/src/View/SerializedView.php:120
+- /var/www/vendor/cakephp/cakephp/src/View/JsonView.php:114
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:764
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:172
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails
+Client IP: 172.20.0.1
+
+
+2022-07-26 15:40:26 error: [Cake\View\Exception\MissingTemplateException] Template file `Cocktails/json/index.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/templates/Cocktails/json/index.php`
+- `/var/www/vendor/cakephp/cakephp/templates/Cocktails/json/index.php`
+ in /var/www/vendor/cakephp/cakephp/src/View/View.php on line 1359
+Exception Attributes: array (
+  'file' => 'Cocktails/json/index.php',
+  'paths' => 
+  array (
+    0 => '/var/www/templates/',
+    1 => '/var/www/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/View/View.php:766
+- /var/www/vendor/cakephp/cakephp/src/View/SerializedView.php:120
+- /var/www/vendor/cakephp/cakephp/src/View/JsonView.php:114
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:764
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails.json
+Client IP: 172.20.0.1
+
+
+2022-07-26 16:50:45 error: [TypeError] Argument 1 passed to Cake\Utility\Inflector::tableize() must be of the type string, null given, called in /var/www/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php on line 739 in /var/www/vendor/cakephp/cakephp/src/Utility/Inflector.php on line 473
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php:739
+- /var/www/templates/Cocktails/index.php:46
+- /var/www/vendor/cakephp/cakephp/src/View/View.php:1181
+- /var/www/vendor/cakephp/cakephp/src/View/View.php:1138
+- /var/www/vendor/cakephp/cakephp/src/View/View.php:769
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:764
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails/index
+Client IP: 172.21.0.1
+
+
+2022-07-26 16:50:53 error: [TypeError] Argument 1 passed to Cake\Utility\Inflector::tableize() must be of the type string, null given, called in /var/www/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php on line 739 in /var/www/vendor/cakephp/cakephp/src/Utility/Inflector.php on line 473
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php:739
+- /var/www/templates/Cocktails/index.php:46
+- /var/www/vendor/cakephp/cakephp/src/View/View.php:1181
+- /var/www/vendor/cakephp/cakephp/src/View/View.php:1138
+- /var/www/vendor/cakephp/cakephp/src/View/View.php:769
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:764
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails/
+Client IP: 172.21.0.1
+
+
+2022-07-26 16:59:20 error: [Error] Call to a member function newEntity() on null in /var/www/src/Controller/CocktailsController.php on line 67
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails.json
+Client IP: 172.21.0.1
+
+
+2022-07-26 16:59:21 warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/vendor/cakephp/cakephp/src/Error/Debugger.php line=988 in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /cocktails.json
+Client IP: 172.21.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-07-26 16:59:21 warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:988) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /cocktails.json
+Client IP: 172.21.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-07-26 16:59:21 warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:988) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /cocktails.json
+Client IP: 172.21.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-07-26 16:59:21 warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:988) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /cocktails.json
+Client IP: 172.21.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-07-26 17:00:03 error: [Error] Call to a member function save() on null in /var/www/src/Controller/CocktailsController.php on line 68
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails.json
+Client IP: 172.21.0.1
+
+
+2022-07-26 17:00:03 warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/vendor/cakephp/cakephp/src/Error/Debugger.php line=988 in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /cocktails.json
+Client IP: 172.21.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-07-26 17:00:03 warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:988) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /cocktails.json
+Client IP: 172.21.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-07-26 17:00:03 warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:988) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /cocktails.json
+Client IP: 172.21.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-07-26 17:00:03 warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:988) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /cocktails.json
+Client IP: 172.21.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-07-26 17:10:08 error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 417
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails/delete/39
+Referer URL: http://localhost:8080/cocktails?page=2
+Client IP: 172.21.0.1
+
+
+2022-07-26 17:15:05 error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 417
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails/delete/38
+Referer URL: http://localhost:8080/cocktails?page=2
+Client IP: 172.21.0.1
+
+
+2022-07-26 17:15:51 error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "cocktails" in /var/www/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php on line 509
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/ORM/Table.php:1541
+- /var/www/src/Controller/CocktailsController.php:148
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails/26.json
+Client IP: 172.21.0.1
+
+
+2022-07-26 17:16:15 error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "cocktails" in /var/www/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php on line 509
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/ORM/Table.php:1541
+- /var/www/src/Controller/CocktailsController.php:50
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails/23.json
+Client IP: 172.21.0.1
+
+
+2022-07-26 17:16:32 error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "cocktails" in /var/www/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php on line 509
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/ORM/Table.php:1541
+- /var/www/src/Controller/CocktailsController.php:50
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails/23.json
+Client IP: 172.21.0.1
+
+
+2022-07-26 17:25:38 error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "cocktails" in /var/www/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php on line 509
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/ORM/Table.php:1541
+- /var/www/src/Controller/CocktailsController.php:50
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails/23.json
+Client IP: 172.21.0.1
+
+
+2022-07-26 17:25:56 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails/22.json
+Client IP: 172.21.0.1
+
+
+2022-07-26 17:38:30 error: [Cake\Http\Exception\MethodNotAllowedException] Method Not Allowed in /var/www/vendor/cakephp/cakephp/src/Http/ServerRequest.php on line 1524
+Stack Trace:
+- /var/www/src/Controller/CocktailsController.php:81
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails/add
+Client IP: 172.21.0.1
+
+
+2022-07-26 17:38:59 error: [Cake\Http\Exception\MethodNotAllowedException] Method Not Allowed in /var/www/vendor/cakephp/cakephp/src/Http/ServerRequest.php on line 1524
+Stack Trace:
+- /var/www/src/Controller/CocktailsController.php:81
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails/add
+Referer URL: http://localhost:8080/cocktails/
+Client IP: 172.21.0.1
+
+
+2022-07-26 17:42:07 error: [Cake\Http\Exception\MethodNotAllowedException] Method Not Allowed in /var/www/vendor/cakephp/cakephp/src/Http/ServerRequest.php on line 1524
+Stack Trace:
+- /var/www/src/Controller/CocktailsController.php:97
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails/edit/44
+Referer URL: http://localhost:8080/cocktails?page=2
+Client IP: 172.21.0.1
+
+
+2022-07-26 17:46:33 error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 417
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails/delete/45
+Referer URL: http://localhost:8080/cocktails?page=2
+Client IP: 172.21.0.1
+
+
+2022-07-26 17:46:48 error: [RuntimeException] Cannot apply 'csrf' middleware or middleware group. Use registerMiddleware() to register middleware. in /var/www/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php on line 1007
+Stack Trace:
+- /var/www/config/routes.php:63
+- /var/www/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php:950
+- /var/www/config/routes.php:91
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:198
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:113
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:102
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:85
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:133
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails?page=2
+Referer URL: http://localhost:8080/cocktails
+Client IP: 172.21.0.1
+
+
+2022-07-26 17:46:50 error: [RuntimeException] Cannot apply 'csrf' middleware or middleware group. Use registerMiddleware() to register middleware. in /var/www/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php on line 1007
+Stack Trace:
+- /var/www/config/routes.php:63
+- /var/www/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php:950
+- /var/www/config/routes.php:91
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:198
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:113
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:102
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:85
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:133
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/de856683-36bb-46ca-b052-697936f7d785
+Referer URL: http://localhost:8080/cocktails?page=2
+Client IP: 172.21.0.1
+
+
+2022-07-26 17:46:53 error: [RuntimeException] Cannot apply 'csrf' middleware or middleware group. Use registerMiddleware() to register middleware. in /var/www/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php on line 1007
+Stack Trace:
+- /var/www/config/routes.php:63
+- /var/www/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php:950
+- /var/www/config/routes.php:91
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:198
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:113
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:102
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:85
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:133
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails
+Referer URL: http://localhost:8080/cocktails/add
+Client IP: 172.21.0.1
+
+
+2022-07-26 17:46:54 error: [RuntimeException] Cannot apply 'csrf' middleware or middleware group. Use registerMiddleware() to register middleware. in /var/www/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php on line 1007
+Stack Trace:
+- /var/www/config/routes.php:63
+- /var/www/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php:950
+- /var/www/config/routes.php:91
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:198
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:113
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:102
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:85
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:133
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/a14ccaf3-18aa-4a45-992e-f8763ec3d0fe
+Referer URL: http://localhost:8080/cocktails
+Client IP: 172.21.0.1
+
+
+2022-07-26 17:46:56 error: [RuntimeException] Cannot apply 'csrf' middleware or middleware group. Use registerMiddleware() to register middleware. in /var/www/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php on line 1007
+Stack Trace:
+- /var/www/config/routes.php:63
+- /var/www/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php:950
+- /var/www/config/routes.php:91
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:198
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:113
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:102
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:85
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:133
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails
+Client IP: 172.21.0.1
+
+
+2022-07-26 17:46:57 error: [RuntimeException] Cannot apply 'csrf' middleware or middleware group. Use registerMiddleware() to register middleware. in /var/www/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php on line 1007
+Stack Trace:
+- /var/www/config/routes.php:63
+- /var/www/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php:950
+- /var/www/config/routes.php:91
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:198
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:113
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:102
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:85
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:133
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/96445429-2bf0-4401-95ef-c9b82ed8af0c
+Referer URL: http://localhost:8080/cocktails
+Client IP: 172.21.0.1
+
+
+2022-07-27 12:05:08 error: [Cake\Http\Exception\MissingControllerException] Controller class Cocktails.json could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Cocktails.json',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:334
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:05:25 error: [Cake\View\Exception\MissingTemplateException] Template file `Cocktails/json/index.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/templates/Cocktails/json/index.php`
+- `/var/www/vendor/cakephp/cakephp/templates/Cocktails/json/index.php`
+ in /var/www/vendor/cakephp/cakephp/src/View/View.php on line 1359
+Exception Attributes: array (
+  'file' => 'Cocktails/json/index.php',
+  'paths' => 
+  array (
+    0 => '/var/www/templates/',
+    1 => '/var/www/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/View/View.php:766
+- /var/www/vendor/cakephp/cakephp/src/View/SerializedView.php:120
+- /var/www/vendor/cakephp/cakephp/src/View/JsonView.php:114
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:764
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/cocktails.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:07:16 error: [Cake\View\Exception\MissingTemplateException] Template file `Cocktails/json/index.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/templates/Cocktails/json/index.php`
+- `/var/www/vendor/cakephp/cakephp/templates/Cocktails/json/index.php`
+ in /var/www/vendor/cakephp/cakephp/src/View/View.php on line 1359
+Exception Attributes: array (
+  'file' => 'Cocktails/json/index.php',
+  'paths' => 
+  array (
+    0 => '/var/www/templates/',
+    1 => '/var/www/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/View/View.php:766
+- /var/www/vendor/cakephp/cakephp/src/View/SerializedView.php:120
+- /var/www/vendor/cakephp/cakephp/src/View/JsonView.php:114
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:764
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/cocktails
+Referer URL: http://localhost:8080/api/cocktails.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:09:57 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/cocktails/1.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:10:08 error: [Cake\View\Exception\MissingTemplateException] Template file `Cocktails/json/view.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/templates/Cocktails/json/view.php`
+- `/var/www/vendor/cakephp/cakephp/templates/Cocktails/json/view.php`
+ in /var/www/vendor/cakephp/cakephp/src/View/View.php on line 1359
+Exception Attributes: array (
+  'file' => 'Cocktails/json/view.php',
+  'paths' => 
+  array (
+    0 => '/var/www/templates/',
+    1 => '/var/www/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/View/View.php:766
+- /var/www/vendor/cakephp/cakephp/src/View/SerializedView.php:120
+- /var/www/vendor/cakephp/cakephp/src/View/JsonView.php:114
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:764
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/cocktails/1.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:11:45 error: [Cake\Http\Exception\MissingControllerException] Controller class Api could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Api',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/cocktails/1.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:12:20 error: [Cake\View\Exception\MissingTemplateException] Template file `Cocktails/json/view.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/templates/Cocktails/json/view.php`
+- `/var/www/vendor/cakephp/cakephp/templates/Cocktails/json/view.php`
+ in /var/www/vendor/cakephp/cakephp/src/View/View.php on line 1359
+Exception Attributes: array (
+  'file' => 'Cocktails/json/view.php',
+  'paths' => 
+  array (
+    0 => '/var/www/templates/',
+    1 => '/var/www/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/View/View.php:766
+- /var/www/vendor/cakephp/cakephp/src/View/SerializedView.php:120
+- /var/www/vendor/cakephp/cakephp/src/View/JsonView.php:114
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:764
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/cocktails/1.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:13:53 error: [Cake\Http\Exception\MissingControllerException] Controller class Api could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Api',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/cocktails/1.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:14:07 error: [Cake\Http\Exception\MissingControllerException] Controller class Cocktails could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Cocktails',
+  'plugin' => NULL,
+  'prefix' => 'Api',
+  '_ext' => 'json',
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/cocktails/1.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:16:48 error: [Cake\Http\Exception\MissingControllerException] Controller class Api could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Api',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/api/cocktails/1.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:17:06 error: [Cake\Http\Exception\MissingControllerException] Controller class Cocktails could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Cocktails',
+  'plugin' => NULL,
+  'prefix' => 'Api',
+  '_ext' => 'json',
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/cocktails.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:19:21 error: [Cake\Http\Exception\MissingControllerException] Controller class Cocktails could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Cocktails',
+  'plugin' => NULL,
+  'prefix' => 'Api',
+  '_ext' => 'json',
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/cocktails.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:19:53 error: [Cake\Http\Exception\MissingControllerException] Controller class Cocktails could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Cocktails',
+  'plugin' => NULL,
+  'prefix' => 'Api',
+  '_ext' => 'json',
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:20:19 error: [Cake\View\Exception\MissingTemplateException] Template file `Cocktails/json/index.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/templates/Cocktails/json/index.php`
+- `/var/www/vendor/cakephp/cakephp/templates/Cocktails/json/index.php`
+ in /var/www/vendor/cakephp/cakephp/src/View/View.php on line 1359
+Exception Attributes: array (
+  'file' => 'Cocktails/json/index.php',
+  'paths' => 
+  array (
+    0 => '/var/www/templates/',
+    1 => '/var/www/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/View/View.php:766
+- /var/www/vendor/cakephp/cakephp/src/View/SerializedView.php:120
+- /var/www/vendor/cakephp/cakephp/src/View/JsonView.php:114
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:764
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:20:49 error: [Cake\Http\Exception\MissingControllerException] Controller class Cocktails could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Cocktails',
+  'plugin' => NULL,
+  'prefix' => 'api',
+  '_ext' => 'json',
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:21:26 error: [Cake\Http\Exception\MissingControllerException] Controller class Cocktails.json could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Cocktails.json',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:334
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:22:08 error: [Cake\Http\Exception\MissingControllerException] Controller class Cocktails could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Cocktails',
+  'plugin' => NULL,
+  'prefix' => 'Api',
+  '_ext' => 'json',
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:22:25 error: [Cake\Http\Exception\MissingControllerException] Controller class Cocktails could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Cocktails',
+  'plugin' => NULL,
+  'prefix' => 'Api',
+  '_ext' => 'json',
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:24:08 error: [Cake\View\Exception\MissingTemplateException] Template file `Cocktails/json/index.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/templates/Cocktails/json/index.php`
+- `/var/www/vendor/cakephp/cakephp/templates/Cocktails/json/index.php`
+ in /var/www/vendor/cakephp/cakephp/src/View/View.php on line 1359
+Exception Attributes: array (
+  'file' => 'Cocktails/json/index.php',
+  'paths' => 
+  array (
+    0 => '/var/www/templates/',
+    1 => '/var/www/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/View/View.php:766
+- /var/www/vendor/cakephp/cakephp/src/View/SerializedView.php:120
+- /var/www/vendor/cakephp/cakephp/src/View/JsonView.php:114
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:764
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/cocktails.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:25:09 error: [Cake\View\Exception\MissingTemplateException] Template file `Cocktails/json/index.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/templates/Cocktails/json/index.php`
+- `/var/www/vendor/cakephp/cakephp/templates/Cocktails/json/index.php`
+ in /var/www/vendor/cakephp/cakephp/src/View/View.php on line 1359
+Exception Attributes: array (
+  'file' => 'Cocktails/json/index.php',
+  'paths' => 
+  array (
+    0 => '/var/www/templates/',
+    1 => '/var/www/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/View/View.php:766
+- /var/www/vendor/cakephp/cakephp/src/View/SerializedView.php:120
+- /var/www/vendor/cakephp/cakephp/src/View/JsonView.php:114
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:764
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/cocktails.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:25:42 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:26:08 error: [Cake\Http\Exception\MissingControllerException] Controller class Cocktails.json could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Cocktails.json',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:334
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:26:47 error: [Cake\Http\Exception\MissingControllerException] Controller class Cocktails.json could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Cocktails.json',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:334
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:29:54 error: [Cake\Http\Exception\MissingControllerException] Controller class Api could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Api',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/cocktails?page=2
+Referer URL: http://localhost:8080/cocktails
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:33:36 error: [Cake\Http\Exception\MissingControllerException] Controller class Api could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Api',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/cocktails?page=2
+Referer URL: http://localhost:8080/cocktails
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:40:49 error: [Cake\Http\Exception\MissingControllerException] Controller class Login could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /login
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:40:54 error: [Cake\Controller\Exception\MissingActionException] Action UsersController::login() could not be found, or is not accessible. in /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php on line 518
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /users/login
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:41:12 error: [Cake\Http\Exception\MissingControllerException] Controller class Login could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /login
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:50:24 error: [Cake\Http\Exception\UnauthorizedException] You are not authorized to access that location. in /var/www/vendor/admad/cakephp-jwt-auth/src/Auth/JwtAuthenticate.php on line 270
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:357
+- /var/www/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:287
+- /var/www/vendor/cakephp/cakephp/src/Event/EventManager.php:309
+- /var/www/vendor/cakephp/cakephp/src/Event/EventManager.php:286
+- /var/www/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:92
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:636
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:130
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:57:28 error: [Cake\Http\Exception\UnauthorizedException] You are not authorized to access that location. in /var/www/vendor/admad/cakephp-jwt-auth/src/Auth/JwtAuthenticate.php on line 270
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:357
+- /var/www/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:287
+- /var/www/vendor/cakephp/cakephp/src/Event/EventManager.php:309
+- /var/www/vendor/cakephp/cakephp/src/Event/EventManager.php:286
+- /var/www/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:92
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:636
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:130
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails.json
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:58:52 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /users/add
+Client IP: 172.18.0.1
+
+
+2022-07-27 12:59:58 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /users/add
+Client IP: 172.18.0.1
+
+
+2022-07-27 13:06:30 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /users/add
+Client IP: 172.19.0.1
+
+
+2022-07-27 13:06:58 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /users/add.json
+Client IP: 172.19.0.1
+
+
+2022-07-27 13:08:11 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:167
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /users/add.json
+Client IP: 172.19.0.1
+
+
+2022-07-27 13:08:43 error: [Cake\Http\Exception\UnauthorizedException] You are not authorized to access that location. in /var/www/vendor/admad/cakephp-jwt-auth/src/Auth/JwtAuthenticate.php on line 270
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:357
+- /var/www/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:287
+- /var/www/vendor/cakephp/cakephp/src/Event/EventManager.php:309
+- /var/www/vendor/cakephp/cakephp/src/Event/EventManager.php:286
+- /var/www/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:92
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:636
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:130
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails.json
+Client IP: 172.19.0.1
+
+
+2022-07-27 13:19:30 error: [TypeError] preg_match() expects parameter 2 to be string, boolean given in /var/www/vendor/cakephp/cakephp/src/Routing/Router.php on line 714
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Routing/Router.php:714
+- /var/www/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:407
+- /var/www/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:281
+- /var/www/vendor/cakephp/cakephp/src/Event/EventManager.php:309
+- /var/www/vendor/cakephp/cakephp/src/Event/EventManager.php:286
+- /var/www/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:92
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:636
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:130
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails
+Client IP: 172.19.0.1
+
+
+2022-07-27 13:19:48 error: [TypeError] preg_match() expects parameter 2 to be string, boolean given in /var/www/vendor/cakephp/cakephp/src/Routing/Router.php on line 714
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Routing/Router.php:714
+- /var/www/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:407
+- /var/www/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:281
+- /var/www/vendor/cakephp/cakephp/src/Event/EventManager.php:309
+- /var/www/vendor/cakephp/cakephp/src/Event/EventManager.php:286
+- /var/www/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:92
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:636
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:130
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails
+Client IP: 172.19.0.1
+
+
+2022-07-27 13:20:47 error: [Cake\Http\Exception\UnauthorizedException] You are not authorized to access that location. in /var/www/vendor/admad/cakephp-jwt-auth/src/Auth/JwtAuthenticate.php on line 270
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:357
+- /var/www/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:287
+- /var/www/vendor/cakephp/cakephp/src/Event/EventManager.php:309
+- /var/www/vendor/cakephp/cakephp/src/Event/EventManager.php:286
+- /var/www/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:92
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:636
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:130
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /cocktails
+Client IP: 172.19.0.1
+
+
+2022-08-01 12:34:12 error: [Error] Class 'App\CsrfProtectionMiddleware' not found in /var/www/src/Application.php on line 71
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:83
+- /var/www/webroot/index.php:40
+
+
+
+2022-08-01 12:40:24 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 38
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 12:46:33 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 38
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 12:46:46 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 38
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 12:48:22 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 38
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 12:52:06 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 38
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 12:52:39 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 38
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 12:54:29 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 38
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 12:56:27 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 38
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 13:03:56 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 38
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 13:04:42 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 38
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 13:09:06 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 38
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 13:36:47 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 38
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 13:44:36 error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Users.username' in 'where clause' in /var/www/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /var/www/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:75
+- /var/www/vendor/cakephp/cakephp/src/Database/Connection.php:337
+- /var/www/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/vendor/cakephp/cakephp/src/Database/Connection.php:340
+- /var/www/vendor/cakephp/cakephp/src/Database/Query.php:250
+- /var/www/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/vendor/cakephp/cakephp/src/Auth/BaseAuthenticate.php:106
+- /var/www/vendor/cakephp/cakephp/src/Auth/FormAuthenticate.php:87
+- /var/www/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:791
+- /var/www/src/Controller/Api/ApiController.php:36
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 13:49:02 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 38
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 13:59:26 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 38
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 14:16:55 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 38
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 14:17:35 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 38
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 14:26:15 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 38
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 14:27:48 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 38
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 14:50:06 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 38
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:172
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 15:08:03 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 38
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:172
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 15:08:24 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 38
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 15:11:38 error: [Cake\Http\Exception\MissingControllerException] Controller class Token could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Token',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => 'json',
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/token.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 15:12:17 error: [Cake\Routing\Exception\MissingRouteException] A route matching "array (
+  'controller' => 'Users',
+  'action' => 'login',
+  'plugin' => NULL,
+  'prefix' => 'api',
+  '_ext' => NULL,
+)" could not be found. in /var/www/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 326
+Exception Attributes: array (
+  'url' => 'array (
+  \'controller\' => \'Users\',
+  \'action\' => \'login\',
+  \'plugin\' => NULL,
+  \'prefix\' => \'api\',
+  \'_ext\' => NULL,
+)',
+  'context' => 
+  array (
+    '_scheme' => 'http',
+    '_host' => 'localhost',
+    '_port' => 8080,
+    '_base' => '',
+    'params' => 
+    array (
+      'pass' => 
+      array (
+      ),
+      'controller' => 'Api',
+      'action' => 'token',
+      'prefix' => 'api',
+      'plugin' => NULL,
+      '_ext' => 'json',
+      '_matchedRoute' => '/api/token',
+    ),
+  ),
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Routing/Router.php:497
+- /var/www/vendor/cakephp/cakephp/src/Routing/Router.php:712
+- /var/www/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:407
+- /var/www/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:281
+- /var/www/vendor/cakephp/cakephp/src/Event/EventManager.php:309
+- /var/www/vendor/cakephp/cakephp/src/Event/EventManager.php:286
+- /var/www/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:92
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:636
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:130
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/token.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 15:12:56 warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/vendor/cakephp/cakephp/src/Error/Debugger.php line=988 in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /api/token.json
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-08-01 15:12:56 warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:988) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /api/token.json
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-08-01 15:12:56 warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:988) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /api/token.json
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-08-01 15:12:56 warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:988) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /api/token.json
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-08-01 15:16:05 error: [Cake\Http\Exception\UnauthorizedException] Invalid username or password in /var/www/src/Controller/Api/ApiController.php on line 35
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/token.json
+Client IP: 172.19.0.1
+
+
+2022-08-01 15:17:27 error: [Cake\View\Exception\MissingTemplateException] Template file `Api/Api/json/token.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/templates/Api/Api/json/token.php`
+- `/var/www/vendor/cakephp/cakephp/templates/Api/Api/json/token.php`
+ in /var/www/vendor/cakephp/cakephp/src/View/View.php on line 1359
+Exception Attributes: array (
+  'file' => 'Api/Api/json/token.php',
+  'paths' => 
+  array (
+    0 => '/var/www/templates/',
+    1 => '/var/www/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/View/View.php:766
+- /var/www/vendor/cakephp/cakephp/src/View/SerializedView.php:120
+- /var/www/vendor/cakephp/cakephp/src/View/JsonView.php:114
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:764
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/token.json
+Client IP: 172.19.0.1
+
+
+2022-08-02 13:54:05 error: [Cake\Http\Exception\UnauthorizedException] Login Failed !, Invalid Login Credentials in /var/www/src/Controller/Api/ApiController.php on line 50
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/login.json
+Client IP: 172.19.0.1
+
+
+2022-08-02 14:01:17 error: [Exception] The request object does not contain the required `authentication` attribute in /var/www/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 142
+Stack Trace:
+- /var/www/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php:93
+- /var/www/vendor/cakephp/cakephp/src/Event/EventManager.php:309
+- /var/www/vendor/cakephp/cakephp/src/Event/EventManager.php:286
+- /var/www/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:92
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:636
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:130
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/token.json
+Client IP: 172.19.0.1
+
+
+2022-08-02 14:01:30 error: [Exception] The request object does not contain the required `authentication` attribute in /var/www/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 142
+Stack Trace:
+- /var/www/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php:93
+- /var/www/vendor/cakephp/cakephp/src/Event/EventManager.php:309
+- /var/www/vendor/cakephp/cakephp/src/Event/EventManager.php:286
+- /var/www/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:92
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:636
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:130
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:138
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /api/token.json
+Client IP: 172.19.0.1
+
+
+2022-08-02 14:04:09 warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/vendor/cakephp/cakephp/src/Error/Debugger.php line=988 in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /api/token.json
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-08-02 14:04:09 warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:988) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /api/token.json
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-08-02 14:04:09 warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:988) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /api/token.json
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-08-02 14:04:09 warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:988) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /api/token.json
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-08-02 14:05:42 warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/vendor/cakephp/cakephp/src/Error/Debugger.php line=988 in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /api/token.json
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-08-02 14:05:42 warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:988) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /api/token.json
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-08-02 14:05:42 warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:988) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /api/token.json
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-08-02 14:05:42 warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:988) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /api/token.json
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
