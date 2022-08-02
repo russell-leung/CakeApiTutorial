@@ -18,6 +18,7 @@ namespace App\Controller;
 
 use Cake\Controller\Controller;
 
+
 /**
  * Application Controller
  *
@@ -43,44 +44,31 @@ class AppController extends Controller
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
-        $this->loadComponent('Crud.Crud', [
-            'actions' => [
-                'Crud.Index',
-                'Crud.View',
-                'Crud.Add',
-                'Crud.Edit',
-                'Crud.Delete'
+        $this->loadComponent('Auth', [
+            'storage' => 'Memory',
+            'authenticate' => [
+                'Form' => [
+                    'scope' => ['Users.group_id']
+                ],
+                'ADmad/JwtAuth.Jwt' => [
+                    'userModel' => 'Users',
+                    'fields' => [
+                        'username' => 'id'
+                    ],
+                    'parameter' => 'token',
+                    'queryDatasource' => true
+                ]
             ],
-            'listeners' => [
-                'Crud.Api',
-                'Crud.ApiPagination',
-                'Crud.ApiQueryLog'
-            ]
+            'unauthorizedRedirect' => false,
+            'checkAuthIn' => 'Controller.initialize',
         ]);
-        // $this->loadComponent('Auth', [
-        //     'storage' => 'Memory',
-        //     'authenticate' => [
-        //         'Form' => [
-        //             'scope' => ['Users.active' => 1]
-        //         ],
-        //         'ADmad/JwtAuth.Jwt' => [
-        //             'parameter' => 'token',
-        //             'userModel' => 'Users',
-        //             'scope' => ['Users.active' => 1],
-        //             'fields' => [
-        //                 'username' => 'id'
-        //             ],
-        //             'queryDatasource' => true
-        //         ]
-        //     ],
-        //     'unauthorizedRedirect' => false,
-        //     'checkAuthIn' => 'Controller.initialize'
-        // ]);
+
+        $this->Auth->allow(['index', 'view']);
+    }
 
         /*
          * Enable the following component for recommended CakePHP form protection settings.
          * see https://book.cakephp.org/4/en/controllers/components/form-protection.html
          */
         //$this->loadComponent('FormProtection');
-    }
 }

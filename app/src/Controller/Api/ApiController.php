@@ -8,21 +8,21 @@ use Firebase\JWT\JWT;
 use Cake\Http\ServerRequest;
 use Cake\I18n\Time;
 
-class ApiController extends AppController
-{
+class ApiController extends AppController {
     
     /**
      * Initialize
      *
      * @return void
      */
-    public function initialize(): void
-    {
+    public function initialize(): void {
         parent::initialize();
         $this->loadModel('Users');
+        $this->loadModel('Cocktails');
 
-        $this->Auth->allow(['login', 'register', 'token']);
-        $this->Authentication->addUnauthenticatedActions(['login', 'register', 'token']);
+
+        $this->Auth->allow(['login', 'register', 'token', 'addCocktail']);
+        $this->Authentication->addUnauthenticatedActions(['login', 'register', 'token', 'addCocktail']);
     }
 
     /**
@@ -30,7 +30,7 @@ class ApiController extends AppController
      * generate the token based off a user's data
      * 
      */
-    public function token(){
+    public function token() {
         $this->request->allowMethod(['get', 'post']);
         $response = ['success' => false, 'msg' => "Invalid Request", 'errors' => ''];
         $token = '';
@@ -59,8 +59,7 @@ class ApiController extends AppController
      * Login user and generate a jwt
      * @return void
     */
-    public function login()
-    {
+    public function login() {
         $response = ['success' => false, 'msg' => "Invalid Request", 'errors' => ''];
         $token = "";
         $user = $this->Auth->identify();
@@ -92,8 +91,7 @@ class ApiController extends AppController
      *
      * @return void
      */
-    public function register()
-    {
+    public function register() {
         $response = ['success' => false, 'msg' => "Invalid Request", 'errors' => '', 'token' => 'Null'];
         $user = $this->Users->newEmptyEntity();
         if ($this->request->is('post')) {
@@ -131,8 +129,7 @@ class ApiController extends AppController
      *
      * @return void
      */
-    public function index()
-    {
+    public function index() {
         $this->paginate = [
             'contain' => ['Groups'],
         ];
@@ -151,8 +148,7 @@ class ApiController extends AppController
      * @return \Cake\Http\Response|null|void Redirects on successful edit, renders view otherwise.
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
-    public function edit($id = null)
-    {
+    public function edit($id = null) {
         $response = ['success' => false, 'msg' => "Invalid Request", 'errors' => ''];
         $user = $this->Users->get($id, [
             'contain' => [],
@@ -171,16 +167,14 @@ class ApiController extends AppController
         $this->viewBuilder()->setOption('serialize', ['success', 'msg', 'errors']);
     }
 
-
-       /**
+    /**
      * View method
      *
      * @param string|null $id User id.
      * @return \Cake\Http\Response|null|void Renders view
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
-    public function view($id = null)
-    {
+    public function view($id = null) {
         $user = $this->Users->get($id, [
             'contain' => ['Groups'],
         ]);
@@ -196,8 +190,7 @@ class ApiController extends AppController
      * @return \Cake\Http\Response|null|void Redirects to index.
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
-    public function delete($id = null)
-    {
+    public function delete($id = null) {
         $response = ['success' => false, 'msg' => "Invalid Request", 'errors' => ''];
         $this->request->allowMethod(['post', 'delete']);
         $user = $this->Users->get($id);
@@ -210,6 +203,40 @@ class ApiController extends AppController
         extract($response);
         $this->set(compact('success', 'msg', 'errors'));
         $this->viewBuilder()->setOption('serialize', ['success', 'msg', 'errors']);
+    }
+    
+    public function addCocktail()
+    {
+        // $cocktail = $this->Cocktails->newEmptyEntity();
+        // if ($this->request->is('post')) {
+        //     $cocktail = $this->Cocktails->patchEntity($cocktail, $this->request->getData());
+        //     if ($this->Cocktails->save($cocktail)) {
+        //         $message = 'Saved';
+        //     } else {
+        //         $message = [$this->request->getData(), $this->Cocktails->save($cocktail)];
+        //     }
+        //     $this->set([
+        //         'message' => $message,
+        //         'cocktail' => $cocktail,
+        //     ]);
+        // }
+        // $this->viewBuilder()->setOption('serialize', ['cocktail', 'message']);
+
+        // $this->set(compact('cocktail'));
+        $cocktail = $this->Cocktails->newEmptyEntity();
+        if ($this->request->is('post')) {
+            $cocktail = $this->Cocktails->patchEntity($cocktail, $this->request->getData());
+            if ($this->Cocktails->save($cocktail)) {
+                $response = ['success'=> true, 'msg' => 'Cocktail Added', 'errors' => '', 'cocktail' => $cocktail];
+            } else {
+                $response = ['success'=> false, 'msg' => 'Unable to add Cocktail', 'errors' => $cocktail->getErrors(), 'cocktail' => ''];
+            }
+        }
+
+        extract($response);
+        $this->set(compact('success', 'msg', 'errors', 'cocktail'));
+        $this->viewBuilder()->setOption('serialize', ['success', 'msg', 'errors', 'cocktail']);
+
     }
 
 }

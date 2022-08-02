@@ -120,5 +120,7 @@ $routes->scope('/api', function (RouteBuilder $builder) {
     $builder->connect('/user/edit/{id}', ['controller' => 'Api', 'action' => 'edit', 'prefix' => 'api'])->setPass(['id'])->setPatterns(['id' => '[0-9]+']);;
     $builder->connect('/user/delete/{id}', ['controller' => 'Api', 'action' => 'delete', 'prefix' => 'api'])->setPass(['id'])->setPatterns(['id' => '[0-9]+']);;
 
+    $builder->connect('/add-cocktail', ['controller' => 'Api', 'action' =>'addCocktail', 'prefix' => 'api']);
+
     $builder->fallbacks();
 });
