@@ -11,7 +11,7 @@ use Cake\I18n\Time;
 class ApiController extends AppController {
     
     /**
-     * Initialize
+     * Initialize & enable allowed actions wihtout authentication
      *
      * @return void
      */
@@ -26,8 +26,8 @@ class ApiController extends AppController {
     }
 
     /**
-     * Token functino
-     * generate the token based off a user's data
+     * Token function
+     * generate the token based off a user's login data
      * 
      */
     public function token() {
@@ -56,7 +56,7 @@ class ApiController extends AppController {
 
     /**
      * Login method
-     * Login user and generate a jwt
+     * Login user and generate a jwt (uses jwt token)
      * @return void
     */
     public function login() {
@@ -87,7 +87,7 @@ class ApiController extends AppController {
 
          
     /**
-     * Register
+     * Register User
      *
      * @return void
      */
@@ -205,24 +205,14 @@ class ApiController extends AppController {
         $this->viewBuilder()->setOption('serialize', ['success', 'msg', 'errors']);
     }
     
-    public function addCocktail()
-    {
-        // $cocktail = $this->Cocktails->newEmptyEntity();
-        // if ($this->request->is('post')) {
-        //     $cocktail = $this->Cocktails->patchEntity($cocktail, $this->request->getData());
-        //     if ($this->Cocktails->save($cocktail)) {
-        //         $message = 'Saved';
-        //     } else {
-        //         $message = [$this->request->getData(), $this->Cocktails->save($cocktail)];
-        //     }
-        //     $this->set([
-        //         'message' => $message,
-        //         'cocktail' => $cocktail,
-        //     ]);
-        // }
-        // $this->viewBuilder()->setOption('serialize', ['cocktail', 'message']);
 
-        // $this->set(compact('cocktail'));
+    /**
+     * Add Cocktail method
+     * allows user to add new cocktails with a post request and the headers: name & description
+     * 
+     * @return null
+     */
+    public function addCocktail() {
         $cocktail = $this->Cocktails->newEmptyEntity();
         if ($this->request->is('post')) {
             $cocktail = $this->Cocktails->patchEntity($cocktail, $this->request->getData());

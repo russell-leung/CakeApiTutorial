@@ -9,11 +9,14 @@ namespace App\Controller;
  * @property \App\Model\Table\CocktailsTable $Cocktails
  * @method \App\Model\Entity\Cocktail[]|\Cake\Datasource\ResultSetInterface paginate($object = null, array $settings = [])
  */
-class CocktailsController extends AppController
-{
+class CocktailsController extends AppController {
 
-    public function viewClasses(): array
-    {
+    /**
+     * View Classes method
+     * allows for api response
+     * @return JsonView
+     */
+    public function viewClasses(): array {
         return [JsonView::class];
     }
 
@@ -22,8 +25,7 @@ class CocktailsController extends AppController
      *
      * @return \Cake\Http\Response|null|void Renders view
      */
-    public function index()
-    {
+    public function index() {
 
         $cocktails = $this->Cocktails->find('all')->all();
         $this->set('cocktails', $cocktails);
@@ -41,8 +43,7 @@ class CocktailsController extends AppController
      * @return \Cake\Http\Response|null|void Renders view
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
-    public function view($id = null)
-    {
+    public function view($id = null) {
 
         $cocktail = $this->Cocktails->get($id);
         $this->set('cocktail', $cocktail);
@@ -60,8 +61,7 @@ class CocktailsController extends AppController
      *
      * @return \Cake\Http\Response|null|void Redirects on successful add, renders view otherwise.
      */
-    public function add()
-    {
+    public function add() {
         if ($this->request->is('post')) {
             $cocktail = $this->Cocktails->newEntity($this->request->getData());
             if ($this->Cocktails->save($cocktail)) {
@@ -88,8 +88,7 @@ class CocktailsController extends AppController
      * @return \Cake\Http\Response|null|void Redirects on successful edit, renders view otherwise.
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
-    public function edit($id = null)
-    {
+    public function edit($id = null) {
 
         if ($this->request->is(['patch', 'post', 'put'])) {
             $cocktail = $this->Cocktails->get($id);
@@ -117,8 +116,7 @@ class CocktailsController extends AppController
      * @return \Cake\Http\Response|null|void Redirects to index.
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
-    public function delete($id = null)
-    {
+    public function delete($id = null) {
 
         $this->request->allowMethod(['delete']);
         $cocktail = $this->Cocktails->get($id);
@@ -130,7 +128,5 @@ class CocktailsController extends AppController
         }
         $this->set('message', $message);
         $this->viewBuilder()->setOption('serialize', ['message']);
-
-        // return $this->redirect(['action' => 'index']);
     }
 }

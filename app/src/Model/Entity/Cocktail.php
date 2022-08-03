@@ -14,8 +14,7 @@ use Cake\ORM\Entity;
  * @property \Cake\I18n\FrozenTime|null $created
  * @property \Cake\I18n\FrozenTime|null $modified
  */
-class Cocktail extends Entity
-{
+class Cocktail extends Entity {
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().
      *

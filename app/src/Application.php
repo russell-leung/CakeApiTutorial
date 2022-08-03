@@ -39,15 +39,13 @@ use Psr\Http\Message\ServerRequestInterface;
  * This defines the bootstrapping logic and middleware layers you
  * want to use in your application.
  */
-class Application extends BaseApplication implements AuthenticationServiceProviderInterface
-{
+class Application extends BaseApplication implements AuthenticationServiceProviderInterface {
     /**
      * Load all the application configuration and bootstrap logic.
      *
      * @return void
      */
-    public function bootstrap(): void
-    {
+    public function bootstrap(): void {
         // Call parent to load bootstrap from files.
         parent::bootstrap();
 
@@ -73,8 +71,7 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
      * @param \Cake\Http\MiddlewareQueue $middlewareQueue The middleware queue to setup.
      * @return \Cake\Http\MiddlewareQueue The updated middleware queue.
      */
-    public function middleware(MiddlewareQueue $middlewareQueue): MiddlewareQueue
-    {
+    public function middleware(MiddlewareQueue $middlewareQueue): MiddlewareQueue {
         $csrf = new CsrfProtectionMiddleware([
             'httponly' => true,
         ]);
@@ -113,8 +110,13 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
         return $middlewareQueue;
     }
 
-    public function getAuthenticationService(ServerRequestInterface $request): AuthenticationServiceInterface
-    {
+    /**
+     * Authentication Service method
+     * defines authentication use  for identifying users based off their email and password
+     * @param ServerRequestInterface $request
+     * @return AuthenticationService $service
+     */
+    public function getAuthenticationService(ServerRequestInterface $request): AuthenticationServiceInterface {
         $service = new AuthenticationService();
 
         $fields = [
@@ -147,8 +149,7 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
      *
      * @return void
      */
-    protected function bootstrapCli(): void
-    {
+    protected function bootstrapCli(): void {
         try {
             $this->addPlugin('Bake');
         } catch (MissingPluginException $e) {

@@ -27,8 +27,7 @@ use Cake\Controller\Controller;
  *
  * @link https://book.cakephp.org/4/en/controllers.html#the-app-controller
  */
-class AppController extends Controller
-{
+class AppController extends Controller {
     /**
      * Initialization hook method.
      *
@@ -38,8 +37,7 @@ class AppController extends Controller
      *
      * @return void
      */
-    public function initialize(): void
-    {
+    public function initialize(): void {
         parent::initialize();
 
         $this->loadComponent('RequestHandler');
@@ -62,8 +60,6 @@ class AppController extends Controller
             'unauthorizedRedirect' => false,
             'checkAuthIn' => 'Controller.initialize',
         ]);
-
-        $this->Auth->allow(['index', 'view']);
     }
 
         /*

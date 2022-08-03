@@ -4,11 +4,13 @@ namespace App\Controller\Api;
 use Cake\Controller\Controller;
 use Cake\Event\Event;
 
-class AppController extends Controller
-{
+class AppController extends Controller {
 
-    public function initialize(): void
-    {
+    /**
+     * Initalize method
+     * @return null
+     */
+    public function initialize(): void {
         parent::initialize();
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Authentication.Authentication');

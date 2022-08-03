@@ -29,8 +29,7 @@ use Cake\View\Exception\MissingTemplateException;
  *
  * @link https://book.cakephp.org/4/en/controllers/pages-controller.html
  */
-class PagesController extends AppController
-{
+class PagesController extends AppController {
     /**
      * Displays a view
      *
@@ -43,8 +42,7 @@ class PagesController extends AppController
      *   be found and not in debug mode.
      * @throws \Cake\View\Exception\MissingTemplateException In debug mode.
      */
-    public function display(...$path): ?Response
-    {
+    public function display(...$path): ?Response {
         if (!$path) {
             return $this->redirect('/');
         }

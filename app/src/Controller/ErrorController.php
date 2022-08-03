@@ -23,15 +23,13 @@ use Cake\Event\EventInterface;
  *
  * Controller used by ExceptionRenderer to render error responses.
  */
-class ErrorController extends AppController
-{
+class ErrorController extends AppController {
     /**
      * Initialization hook method.
      *
      * @return void
      */
-    public function initialize(): void
-    {
+    public function initialize(): void {
         $this->loadComponent('RequestHandler');
     }
 
@@ -41,8 +39,7 @@ class ErrorController extends AppController
      * @param \Cake\Event\EventInterface $event Event.
      * @return \Cake\Http\Response|null|void
      */
-    public function beforeFilter(EventInterface $event)
-    {
+    public function beforeFilter(EventInterface $event){
     }
 
     /**
@@ -51,8 +48,7 @@ class ErrorController extends AppController
      * @param \Cake\Event\EventInterface $event Event.
      * @return \Cake\Http\Response|null|void
      */
-    public function beforeRender(EventInterface $event)
-    {
+    public function beforeRender(EventInterface $event) {
         parent::beforeRender($event);
 
         $this->viewBuilder()->setTemplatePath('Error');
@@ -64,7 +60,6 @@ class ErrorController extends AppController
      * @param \Cake\Event\EventInterface $event Event.
      * @return \Cake\Http\Response|null|void
      */
-    public function afterFilter(EventInterface $event)
-    {
+    public function afterFilter(EventInterface $event) {
     }
 }
